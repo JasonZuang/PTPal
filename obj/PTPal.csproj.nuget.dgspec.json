@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jasonzuang/Documents/c#/PTPal/PTPal.csproj": {}
+  },
+  "projects": {
+    "/Users/jasonzuang/Documents/c#/PTPal/PTPal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jasonzuang/Documents/c#/PTPal/PTPal.csproj",
+        "projectName": "PTPal",
+        "projectPath": "/Users/jasonzuang/Documents/c#/PTPal/PTPal.csproj",
+        "packagesPath": "/Users/jasonzuang/.nuget/packages/",
+        "outputPath": "/Users/jasonzuang/Documents/c#/PTPal/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jasonzuang/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/jasonzuang/.vscode-dotnet-sdk/.dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
